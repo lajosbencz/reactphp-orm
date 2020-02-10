@@ -1,0 +1,26 @@
+{
+  "name": "lajosbencz/react-orm",
+  "description": "Promise based ORM for ReactPHP",
+  "license": "GPL-3.0-or-later",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lajos Bencz",
+      "email": "lazos@lazos.me"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "react/mysql": "^0.5.4",
+    "joachim-n/case-converter": "^1.0",
+    "lajosbencz/react-di": "dev-master@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "ReactOrm\\": "src/ReactOrm/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
